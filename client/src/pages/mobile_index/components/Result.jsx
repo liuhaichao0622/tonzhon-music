@@ -14,7 +14,7 @@ class Result extends Component {
 
   renderSongs(songs) {
     return (
-      <SongList songs={songs} shouldSendOperatingData />
+      <SongList songs={songs} />
     );
   }
 
